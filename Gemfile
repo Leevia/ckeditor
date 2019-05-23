@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gemspec
 
-gem 'rails', '4.2.10'
+gem 'rails', '4.2.11.1'
 
 platforms :ruby do
   gem 'sass'

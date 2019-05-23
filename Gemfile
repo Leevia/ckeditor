@@ -22,7 +22,7 @@ platforms :ruby do
     gem 'carrierwave'
     gem 'dragonfly'
     gem 'mini_magick'
-    gem 'paperclip', '~> 5.2.0'
+    gem 'paperclip', '~> 6.1.0'
     gem 'refile', require: 'refile/rails'
     gem 'refile-mini_magick'
   end

@@ -30,7 +30,7 @@ platforms :ruby do
   group :mongoid do
     gem 'bson_ext'
     gem 'carrierwave-mongoid', require: 'carrierwave/mongoid'
-    gem 'mongoid', '~> 5.0.0'
+    gem 'mongoid', '~> 5.4.1'
     gem 'mongoid-paperclip', require: 'mongoid_paperclip'
   end
 end

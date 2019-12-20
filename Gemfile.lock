@@ -126,7 +126,7 @@ GEM
       mime-types
       mimemagic (~> 0.3.0)
     public_suffix (3.0.2)
-    rack (1.6.9)
+    rack (1.6.12)
     rack-protection (1.5.4)
       rack
     rack-test (0.6.3)
@@ -201,10 +201,9 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
-    unicorn (4.0.1)
-      kgio (~> 2.4)
-      rack
-      raindrops (~> 0.6)
+    unicorn (5.5.2)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
     xpath (3.0.0)
       nokogiri (~> 1.8)
 
@@ -229,7 +228,7 @@ DEPENDENCIES
   refile-mini_magick
   sass
   sqlite3
-  unicorn (~> 4.0.1)
+  unicorn (~> 5.5.2)
 
 BUNDLED WITH
    1.15.3

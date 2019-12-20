@@ -9,7 +9,7 @@ platforms :ruby do
   gem 'sqlite3'
 
   group :development do
-    gem 'unicorn', '~> 4.0.1'
+    gem 'unicorn', '~> 5.5.2'
   end
 
   group :development, :test do

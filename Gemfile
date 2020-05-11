@@ -14,7 +14,7 @@ platforms :ruby do
 
   group :development, :test do
     gem 'capybara', '>= 0.4.0'
-    gem 'jquery-rails', '~> 4.0.4'
+    gem 'jquery-rails', '~> 4.4.0'
     gem 'mynyml-redgreen', '~> 0.7.1', require: 'redgreen'
   end
 
